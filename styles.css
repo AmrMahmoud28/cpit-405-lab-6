@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+}
+
+#likeBtn, #dislikeBtn{
+    padding: 0.5% 5%;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#likeBtn:hover, #dislikeBtn:hover{
+    transform: scale(1.02);
+}
+
+#likeBtn:active, #dislikeBtn:active{
+    transform: scale(1.09);
+}
+
+h1, h2{
+    color: #575757;
+}
+
+#submit, #reset{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#submit:hover, #reset:hover{
+    background-color: #575757;
+    color: #fff;
+}
+
+.comments{
+    margin-top: 3%;
+}
+
+.comments h3{
+    margin-bottom: 1.5%;
+    font-size: 1.5rem;
+}
+
+#commentBox{
+    width: 33%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 20px 33%;
+    font-size: 1.2rem;
+    display: block;
+    resize: none;
+}
+
+.commentsList p{
+    font-size: 1.3rem;
+}
+
+#confirmationMessage {
+    color: green;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
